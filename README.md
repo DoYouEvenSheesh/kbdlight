@@ -7,6 +7,11 @@ backlight level.
 While usable standalone, the main goal is for it to be used by other
 applications, including things like sxhkd or xbindkeys.
 
+Installation
+-----
+run the `makefile` and move the binary to `/usr/bin`
+copy udev rules to `/etc/udev/rules.d/90-backlight.rules`
+
 Usage
 -----
 Usage is quite simple:
